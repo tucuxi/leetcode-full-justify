@@ -20,7 +20,7 @@ func fullJustify(words []string, maxWidth int) []string {
 			l = 0
 			i = j
 		} else {
-			l = l + len(words[j])
+			l += len(words[j])
 			j++
 		}
 	}
